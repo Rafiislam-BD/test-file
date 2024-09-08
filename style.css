@@ -1,0 +1,161 @@
+:root{
+    --primary-color: #DC493D;
+    --text-color:#696a6b;
+    --white:#FFFFFF;
+    --shadow-gray:#2d2d2d72;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "jost";
+    }
+
+/* custom */
+
+ .container{
+    width: 1240px;
+    margin: 0 auto;
+ }
+ .text-center{
+    text-align: center;
+ }
+ .my-5{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+a{
+    text-decoration: none;
+}
+#logo{
+    height: 40px;
+    margin-right: 20px;
+    
+}
+/* nav-bar */
+.nav_bar li{
+    display: inline-block;
+}
+.nav_bar li a{
+    color: var(--primary-color);
+    font-weight: 600px;
+    text-decoration: underline;
+    
+}
+.main_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+
+  /* hero area */
+.hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar{
+    width: 450px;
+    height: auto;
+    
+
+}
+.sub-heading{
+    font-size: 32px;
+    font-weight: 500px;
+}
+.main-heading{
+    font-size: 44px;
+    font-weight: 700px;
+    color: var(--primary-color);
+
+}
+.description{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: var(--text-color);
+   
+}
+.btn{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 2px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px var(--text-color);
+}
+.btn a{
+    color: var(--white);
+}
+header{
+    background-image: url(./Image/header-bg.png);
+    
+
+}
+/* biography_area */
+.biography_area{
+    
+    background-image: url(./Image/biography-bg.png);
+    background-position: center center;
+    background-size: cover;
+
+}
+.biography_content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+   padding-top: 150px;
+    column-gap: 200px;
+}
+
+/* recent works */
+.work_img{
+    width: 100%;
+    
+
+}
+.recent_works-area{
+    background-image: url(./Image/latest-work-bg.png);
+    background-position:center center ;
+    background-size: cover;
+    padding-top:  100px;
+    padding-bottom: 200px;
+}
+.projects_img_container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 200px;
+    
+}
+.projects_img_container div{
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px var(--shadow-gray) ;
+    cursor: pointer;
+}
+/* contact section */
+.contact_section{
+    background-color: var(--primary-color);
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+.contact_section p a{
+    color: var(--white);
+
+}
+.contact_section h4{
+    font-size: 20px;
+    color: var(--white);
+}
+
+
+     
